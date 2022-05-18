@@ -25,6 +25,21 @@ text-shadow: 5px 5px 5px black;
   max-width: 100%;
  }
 }
+@media screen and (min-width:768px) {
+ .header {
+font-size: 50px;
+display: block;
+text-align: center;
+color: rgb(255, 255, 255);
+font-variant: small-caps;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cinzel', serif;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+text-shadow: 5px 5px 5px black;
+ }
+}
 
 .topnav {
   overflow: hidden;
@@ -69,7 +84,7 @@ text-shadow: 5px 5px 5px black;
     max-width: 100%;
   }
 }
-
+  
 .topnav.responsive a {
   float: none;
   display: block;
@@ -134,6 +149,17 @@ text-shadow: 5px 5px 5px black;
     }
   }
 
+@media screen and (min-width:768px) {
+   .skip {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    top: 0;
+    margin-left: 10px;
+  }
+}
 
 body {
   background-image: url("https://bloody-disgusting.com/wp-content/uploads/2020/08/left4dead2.jpg");
@@ -239,7 +265,12 @@ h6 {
   }
 }
 
-.dl {
+@media screen and (min-width:768px) {
+.b4b {
+  width: 200px;
+  }
+}
+  .dl {
 width: 200px;
 }
 
@@ -256,6 +287,12 @@ width: 200px;
     height: 250px;
     }
   }
+
+@media screen and (min-width:768px) {
+.dl {
+  width: 200px;
+  }
+}
 
 .tank {
   display: block;
